@@ -1,0 +1,303 @@
+#header {
+	background-color: #F1F1F1;
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #DBDBDB;
+}
+
+#header img:first-child {
+	width: 90px;
+	height: auto;
+	padding: 15px 0 0 15px;
+}
+
+#header img:nth-child(3) {
+	margin: 10px 0 0 586px;
+	width: 37px;
+	height: auto;
+}
+
+#header img:nth-child(4) {
+	border-radius: 50%;
+	float: right;
+	margin: 15px 30px 0 0;
+}
+
+input[type=text] {
+	display: inline-block;
+	width: 43%;
+	height: 35px;
+	background-color: white;
+	padding: 0 10px 0 10px;
+	position: absolute;
+	border: 1px solid #D9D9D9;
+	background-image: url('inmatningsverktyg-bild.gif');
+	background-repeat: no-repeat;
+	background-position: 530px 12px;
+	margin: 10px 0 0 20px;
+}
+
+input[type=text]:hover {
+	border: 1px solid #B0B0B0;
+}
+
+input[type=text]:focus {
+	border: 1px solid #4285F4;
+}
+
+#subHeader {
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid #DBDBDB;
+}
+
+#subHeader a {
+	text-decoration: none;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 13px;
+	margin: 25px 0 0 25px;
+	color: #8A8A8A;
+}
+
+#subHeader a:hover {
+	color: black;
+}
+
+#subHeader a:first-child {
+	margin-left: 130px;
+	font-weight: bold;
+	color: #4285F4;
+}
+
+#selectBox {
+	background-color: #4285F4;
+	height: 3px;
+	width: 35px;
+	position: absolute;
+	margin: 19px 0 0 123px;
+}
+
+#resultsHeader {
+	border-bottom: 1px solid #DBDBDB;
+	height: 80px;
+}
+
+#resultsHeader p {
+	font-size: 12px;
+	font-family: Arial;
+}
+
+#resultsHeader p:first-child {
+	padding-top: 17px;
+	color: #8a8a8a;
+}
+
+#resultsHeader p:nth-child(2) {
+	padding-top: 17px;
+}
+
+#resultsHeader a {
+	color: blue;
+	text-decoration: none;
+}
+
+#resultsHeader a span {
+	color: #1A0DAB;
+	font-weight: bold;
+}
+
+#resultsHeader a:hover {
+	text-decoration: underline;
+}
+
+#results {
+	float: left;
+	display: inline-block;
+	width: 45%;
+	margin-left: 125px;
+}
+
+.searchResult {
+	padding: 10px 0 0 10px;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.searchResult p {
+	padding: 3px 0px 3px 0px;
+	color: #7A7A7A;
+}
+
+.searchResult p span {
+	font-weight: bold;
+}
+
+.searchResult a {
+	text-decoration: none;
+	color: blue;
+	padding: 3px 0px 3px 0px;
+}
+
+.searchResult a:hover {
+	text-decoration: underline;
+}
+
+.searchResult a:first-child {
+	font-size: 20px;
+}
+
+.searchResult p:nth-child(2) {
+	color: #34693C;
+}
+
+#resultsFooter{
+	border-top: 1px solid #DBDBDB;
+	border-bottom: 1px solid #DBDBDB;
+	padding: 10px 0 10px 10px;
+	font-family: Arial;
+	color: #7a7a7a;
+}
+
+#resultsFooterLeftCol a, #resultsFooterRightCol a {
+	display: block;
+	padding: 7px 0;
+	font-size: 15px;
+	text-decoration: none;
+	color: blue;
+}
+
+#resultsFooterLeftCol a:hover, #resultsFooterRightCol a:hover {
+	text-decoration: underline;	
+}
+
+#resultsFooterLeftCol a span, #resultsFooterRightCol a span {
+	font-weight: bold;	
+}
+
+#resultsFooterLeftCol {
+	display: inline-block;
+	margin-top: 5px;
+}
+
+#resultsFooterRightCol {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#generalInfo {
+	float: right;
+	min-width: 20%;
+	max-width: 35%;
+	height: auto;
+	border: 1px solid #DBDBDB;
+	margin: 35px 25px 0 0;
+	font-family: Arial;
+	box-shadow: 1px 1px 3px #888888;
+	padding: 10px;
+}
+
+#generalInfo a {
+	text-decoration: none;
+	color: blue;
+}
+
+#generalInfo a:hover {
+	text-decoration: underline;
+}
+
+#generalInfo span {
+	font-weight: bold;
+}
+
+#generalInfo p:first-child {
+	font-size: 30px;
+}
+
+#generalInfo p:nth-child(2) {
+	color: #A6A6A6;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#generalInfo div:nth-child(3) {
+	border-top: 1px solid #DBDBDB;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+#generalInfo div p:first-child {
+	font-size: 14px;
+}
+
+#generalInfo div p:nth-child(4) {
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+.gamePrev {
+	width: 80px;
+	padding: 10px 2px;
+	display: inline-block;
+}
+
+.gamePrev img {
+	width: auto;
+	height: 80px;
+	display: block;
+}
+
+.gamePrev a {
+	color: blue;
+	text-decoration: none;
+	display:block;
+	padding: 5px 0;
+}
+
+.gamePrev a:hover {
+	text-decoration: underline;
+}
+
+.gamePrev p {
+	font-size: 12px;
+	color: #a6a6a6;
+}
+
+#pageNumber {
+	margin-top: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#pageNumber a {
+	text-decoration: none;
+	color: blue;
+}
+
+#pageNumber a:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	background-color: #F2F2F2;
+	width: 100%;
+	height: 40px;
+	bottom: 0px;
+	border-top: 1px solid #C7C7C7;
+	clear: both;
+	display: block;
+	padding: 25px 0 0 120px;
+	font-size: 12px;
+}
+
+#footer a {
+	padding: 20px;
+	color: #a6a6a6;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #4A4A4A;
+}
